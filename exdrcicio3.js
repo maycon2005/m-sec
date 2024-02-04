@@ -7,14 +7,12 @@
 // Ou 3x de R$20,00
 //---------------------------------------------
 
-let preço = 60;
-let aVista = 54;
-let vezes = 0;
+let preco = 60;
+let aVista = 10;
+let totalAVista = 0;
 
-vezes = 60 / 3
+totalAVista = (preco - (aVista / 100) * preco);
 
-console.log("O preço do produto é R$" + (preço) + ",00");
-console.log("Comprando à vista, ele sai por R$" + (aVista) + ",00");
-console.log("Pagando no cartão em 3x, à partir de R$" + (vezes) + ",00");
-console.log("OBRIGADO, VOLTE SEMPRE!!!");
-
+console.log(`Preço: R$${preco},00`);
+console.log(`À vista: R$${totalAVista},00`);
+console.log(`Ou 3x de R$${preco/3},00`);
