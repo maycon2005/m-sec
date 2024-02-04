@@ -8,13 +8,13 @@
 //---------------------------------------------
 
 let preço = 60;
-let avista = 54;
+let aVista = 54;
 let vezes = 0;
 
 vezes = 60 / 3
 
 console.log("O preço do produto é R$" + (preço) + ",00");
-console.log("Comprando à vista, ele sai por R$" + (avista) + ",00");
+console.log("Comprando à vista, ele sai por R$" + (aVista) + ",00");
 console.log("Pagando no cartão em 3x, à partir de R$" + (vezes) + ",00");
 console.log("OBRIGADO, VOLTE SEMPRE!!!");
 
